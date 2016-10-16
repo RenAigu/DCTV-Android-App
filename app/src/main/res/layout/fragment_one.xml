@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.renaigu.dctv.fragments.OneFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/one"
+        android:textSize="18sp"
+        android:layout_centerInParent="true"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/dctvRow"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:focusableInTouchMode="true"
+            android:clickable="true"
+            android:focusable="true" >
+
+            <ImageView
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/dctv247"
+                android:id="@+id/imageButton"
+                android:layout_weight="1"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:text="@string/DCTV"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

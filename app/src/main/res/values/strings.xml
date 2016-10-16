@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Diamond Club TV</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="one">More channels soon!</string>
+    <string name="two">Coming soon!</string>
+    <string name="three">Yup</string>
+    <string name="DCTV">Diamond Club TV 24/7</string>
+    <string name="app_id">CastMediaControlIntent.DEFAULT_MEDIA_RECEIVER_APPLICATION_ID</string>
+    <string name="media_route_menu_title">Cast</string>
+    <string name="video_error_media_load_timeout">Media load timout</string>
+    <string name="video_error_server_unaccessible">Server unaccessible</string>
+    <string name="video_error_unknown_error">Only Harambe knows this error</string>
+    <string name="connection_recovered">Connection recovered</string>
+    <string name="connection_temp_lost">Connection temporary lost</string>
+    <string name="error">Error</string>
+    <string name="ok">Okay</string>
+    <string name="oops">oops</string>
+    <string name="connection_lost_retry">Retrying lost connection</string>
+    <string name="connection_lost">Lost connection</string>
+    <string name="failed_to_perform_action">Failed to perform action</string>
+    <string name="version">Version %</string>
+    <string name="captions">Captions</string>
+    <string name="captions_settings">Caption settings</string>
+    <string name="about_app">About app</string>
+    <string name="touch_to_cast">Casts out for Harambe!</string>
+</resources>
